@@ -17,16 +17,26 @@ To be able to run this application, you will need to install its dependencies. T
 
 The following commands will reproduce these steps within a terminal:
 
-```bash
+```lang-bash
 cd app/
 npm install
+```
+
+### Configure environment variables
+
+This app uses a module named `dotenv` to manage environment variables. Loading environment variables from a `.env` file into the [Node process.env API](https://nodejs.org/docs/latest/api/process.html#process_process_env). 
+
+To test it, create the file `app/.env` and declare the `PORT` environment variable with a value of your choice, e.g: `3000` do this by pasting the following content to the file:
+
+```lang-makefile
+PORT=3000
 ```
 
 ### Run the application
 
 You can run the application by issuing the following command:
 
-```bash
+```lang-bash
 node app.js
 ```
 
@@ -34,5 +44,6 @@ After that, open your web browser of choice and load http://localhost:3000/ to s
 
 ## References
 
+- [dotenv](https://www.npmjs.com/package/dotenv)
 - [Express](https://www.npmjs.com/package/express)
 - [Node.js](https://nodejs.org/)
