@@ -1,5 +1,6 @@
 # express-server-template
-This repository provides a NodeJS Express server template
+
+This repository provides a minimalist NodeJS Express server template provided with a middleware that enables all CORS requests and a dependency for managing environment variables via `.env` file.
 
 ## Prerequisites
 
@@ -44,6 +45,7 @@ After that, open your web browser of choice and load http://localhost:3000/ to s
 
 ## References
 
+- [cors](https://www.npmjs.com/package/cors)
 - [dotenv](https://www.npmjs.com/package/dotenv)
 - [Express](https://www.npmjs.com/package/express)
 - [Node.js](https://nodejs.org/)
