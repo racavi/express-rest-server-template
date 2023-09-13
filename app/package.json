@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/racavi/express-server-template/issues"
   },
-  "homepage": "https://github.com/racavi/express-server-template#readme"
+  "homepage": "https://github.com/racavi/express-server-template#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
